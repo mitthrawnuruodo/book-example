@@ -16,7 +16,7 @@ class Book {
       authorLastName: al,
       title,
       published: pub
-    } = this;
+    } = this; // Destructure the instance
     return `${af} ${al}: ${title} (${pub})`;
   }
 
@@ -77,8 +77,13 @@ async function init() {
   if (!res.ok) throw new Error("Failed to load books.json");
   const data = await res.json();
 
+  //console.log(data);
+  //console.log(data.books);
+  //console.log(data.books[0]);
+  //console.log(data.books[0].title);
+
   // Convert plain objects → Book instances so methods work
-  myBooks = data.map(
+  myBooks = data.books.map(
     b => new Book(b.title, b.authorFirstName, b.authorLastName, b.published)
   );
 
