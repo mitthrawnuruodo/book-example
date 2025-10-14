@@ -10,7 +10,6 @@ A small vanilla JavaScript project that loads a list of books from a JSON file, 
 ## Project Structure
 ```md
 books-app/
-│
 ├── index.html   # Page markup and buttons
 ├── script.js    # Logic: class, fetch, render, sort
 └── books.json   # Book data (plain objects)
