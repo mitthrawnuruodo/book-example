@@ -1,0 +1,23 @@
+[
+  { "title": "Hitchhikers Guide to the Galaxy", "authorFirstName": "Douglas", "authorLastName": "Adams", "published": 1979 },
+  { "title": "Neuromancer", "authorFirstName": "William", "authorLastName": "Gibson", "published": 1984 },
+  { "title": "Snow Flower and the Secret Fan", "authorFirstName": "Lisa", "authorLastName": "See", "published": 2005 },
+  { "title": "1Q84, book 1+2", "authorFirstName": "Haruki", "authorLastName": "Murakami", "published": 2009 },
+  { "title": "1Q84, book 3", "authorFirstName": "Haruki", "authorLastName": "Murakami", "published": 2010 },
+  { "title": "Night Train to Rigel", "authorFirstName": "Thimothy", "authorLastName": "Zahn", "published": 2005 },
+  { "title": "Old Man's War", "authorFirstName": "John", "authorLastName": "Scalzi", "published": 2005 },
+  { "title": "Agent to the Stars", "authorFirstName": "John", "authorLastName": "Scalzi", "published": 2005 },
+  { "title": "Douglas Adams's Starship Titanic", "authorFirstName": "Terry", "authorLastName": "Jones", "published": 1997 },
+  { "title": "Dirk Gently's Holistic Detective Agency", "authorFirstName": "Douglas", "authorLastName": "Adams", "published": 1987 },
+  { "title": "Pattern Recognition", "authorFirstName": "William", "authorLastName": "Gibson", "published": 2003 },
+  { "title": "Fingersmith", "authorFirstName": "Sarah", "authorLastName": "Waters", "published": 2002 },
+  { "title": "BattleAxe/The Wayfarer Redemption", "authorFirstName": "Sara", "authorLastName": "Douglass", "published": 1995 },
+  { "title": "White Cat", "authorFirstName": "Holly", "authorLastName": "Black", "published": 2010 },
+  { "title": "Hidden Empire", "authorFirstName": "Kevin J.", "authorLastName": "Anderson", "published": 2002 },
+  { "title": "The Windup Girl", "authorFirstName": "Paolo", "authorLastName": "Bacigalupi", "published": 2009 },
+  { "title": "The Girl With All the Gifts", "authorFirstName": "M.R.", "authorLastName": "Carey", "published": 2014 },
+  { "title": "Dissolution", "authorFirstName": "C.J.", "authorLastName": "Sansom", "published": 2004 },
+  { "title": "The Name of the Rose", "authorFirstName": "Umberto", "authorLastName": "Eco", "published": 1980 },
+  { "title": "Roman Blood", "authorFirstName": "Steven", "authorLastName": "Saylor", "published": 2000 },
+  { "title": "Felidae", "authorFirstName": "Akif", "authorLastName": "Pirinçci", "published": 1989 }
+]
