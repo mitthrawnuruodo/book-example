@@ -74,7 +74,7 @@ let myBooks = [];
 // 6) Load data from JSON, convert to Book instances, show on page
 async function init() {
   try{
-    const res = await fetch("books2.json");
+    const res = await fetch("books.json");
     console.log(res);
     if (!res.ok) throw new Error("Failed to load books.json");
     const data = await res.json();
