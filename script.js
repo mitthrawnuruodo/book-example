@@ -73,21 +73,29 @@ let myBooks = [];
 
 // 6) Load data from JSON, convert to Book instances, show on page
 async function init() {
-  const res = await fetch("books.json");
-  if (!res.ok) throw new Error("Failed to load books.json");
-  const data = await res.json();
+  try{
+    const res = await fetch("books2.json");
+    console.log(res);
+    if (!res.ok) throw new Error("Failed to load books.json");
+    const data = await res.json();
 
-  //console.log(data);
-  //console.log(data.books);
-  //console.log(data.books[0]);
-  //console.log(data.books[0].title);
+    console.log(data);
+    console.log(data.books);
+    console.log(data.books[0]);
+    console.log(data.books[0].title);
 
-  // Convert plain objects → Book instances so methods work
-  myBooks = data.books.map(
-    b => new Book(b.title, b.authorFirstName, b.authorLastName, b.published)
-  );
+    // Convert plain objects → Book instances so methods work
+    myBooks = data.books.map(
+      b => new Book(b.title, b.authorFirstName, b.authorLastName, b.published)
+    );
 
-  Book.printList(myBooks);
+    Book.printList(myBooks);
+  } catch (e) {
+    console.error(e.message);
+    document.getElementById("errorMessage").innerText = e.message;
+  } finally {
+    console.log ("This runs on success and failure...")
+  }
 }
 
 // 7) Sort handlers (called from the buttons in HTML)
